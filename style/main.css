@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+.navbar {
+  background-color: #dbedff !important;
+}
+.navbar.active {
+  background: #fef0e7;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.07);
+  padding: 20px 0;
+}
+.navbar .nav-link {
+  margin-left: 50px;
+  font-weight: 500;
+  color: #000000;
+}
+.navbar .nav-link.active {
+  font-weight: 700;
+  color: #1189F7 !important;
+}
+.navbar .nav-link:hover {
+  font-weight: 500;
+  color: #1189F7 !important;
+}
+
+.navbar-brand img {
+  width: 189px !important;
+}
+
+.master-btn, .btn-lihatsemua, .btn-explore, .btn-mulai, .btn-second, .btn-first {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+@media (max-width: 575.98px) {
+  .master-btn, .btn-lihatsemua, .btn-explore, .btn-mulai, .btn-second, .btn-first {
+    padding: 10px 20px;
+  }
+}
+
+.btn-first {
+  background-color: #1189F7;
+  color: white !important;
+  text-decoration: none !important;
+}
+.btn-first:hover {
+  background-color: #057AE7;
+  color: white !important;
+}
+
+.btn-masuk {
+  margin-left: 56px !important;
+  text-decoration: none !important;
+  color: #000000;
+}
+.btn-masuk:hover {
+  font-weight: 500;
+  color: #1189F7 !important;
+}
+
+.btn-second {
+  border: 2px solid #1189F7;
+  color: #1189F7;
+  text-decoration: none !important;
+}
+
+.btn-mulai {
+  margin-right: 18px;
+  background-color: #1189F7;
+  color: white !important;
+  text-decoration: none !important;
+}
+.btn-mulai:hover {
+  background-color: #057AE7;
+  color: white !important;
+}
+
+.btn-explore {
+  border: 2px solid #1189F7;
+  color: #1189F7;
+  text-decoration: none !important;
+}
+
+.btn-home {
+  margin-top: 54px !important;
+}
+
+.btn-lihatsemua {
+  margin-right: 18px;
+  background-color: #1189F7;
+  color: white !important;
+  text-decoration: none !important;
+}
+.btn-lihatsemua:hover {
+  background-color: #057AE7;
+  color: white !important;
+}
+
+.master-btn, .btn-first, .btn-second, .btn-mulai, .btn-explore, .btn-lihatsemua {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+@media (max-width: 575.98px) {
+  .master-btn, .btn-first, .btn-second, .btn-mulai, .btn-explore, .btn-lihatsemua {
+    padding: 10px 20px;
+  }
+}
+
+.btn-first {
+  background-color: #1189F7;
+  color: white !important;
+  text-decoration: none !important;
+}
+.btn-first:hover {
+  background-color: #057AE7;
+  color: white !important;
+}
+
+.btn-masuk {
+  margin-left: 56px !important;
+  text-decoration: none !important;
+  color: #000000;
+}
+.btn-masuk:hover {
+  font-weight: 500;
+  color: #1189F7 !important;
+}
+
+.btn-second {
+  border: 2px solid #1189F7;
+  color: #1189F7;
+  text-decoration: none !important;
+}
+
+.btn-mulai {
+  margin-right: 18px;
+  background-color: #1189F7;
+  color: white !important;
+  text-decoration: none !important;
+}
+.btn-mulai:hover {
+  background-color: #057AE7;
+  color: white !important;
+}
+
+.btn-explore {
+  border: 2px solid #1189F7;
+  color: #1189F7;
+  text-decoration: none !important;
+}
+
+.btn-home {
+  margin-top: 54px !important;
+}
+
+.btn-lihatsemua {
+  margin-right: 18px;
+  background-color: #1189F7;
+  color: white !important;
+  text-decoration: none !important;
+}
+.btn-lihatsemua:hover {
+  background-color: #057AE7;
+  color: white !important;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  transition: 0.3% ease-in-out all;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  max-width: 1344px;
+}
+
+.section-margin {
+  margin-top: 180px;
+}
+
+.label-section {
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+}
+
+.img-banner {
+  margin-top: 40px !important;
+}
+
+.heading-section {
+  font-weight: 500;
+  color: #000000;
+  font-size: 40px;
+}
+
+.subheading-section {
+  font-weight: 300;
+  color: #000000;
+  font-size: 25px;
+}
+
+.home {
+  height: 100%;
+  background-color: #dbedff !important;
+}
+.home .heading-home {
+  font-size: 46px;
+  margin-top: 77px;
+  font-weight: 700;
+  color: #000000;
+}
+.home .heading-home .prof {
+  color: #1189F7;
+}
+.home .heading-home .krea {
+  color: #1189F7;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home .heading-home {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575.98px) {
+  .home .heading-home {
+    font-size: 16px;
+  }
+}
+.home .subheading-home {
+  margin-top: 34px;
+}
+@media (max-width: 767.98px) {
+  .home .subheading-home {
+    margin-top: 30px;
+  }
+}
+
+.partner {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.partner .text-partner-kami {
+  padding-bottom: 30px;
+}
+
+.category i {
+  font-size: 50px;
+  color: #1189F7;
+}
+.category .image-category {
+  width: 85px !important;
+}
+.category .card {
+  border: 2px solid #1189F7;
+}
+.category .card.active {
+  background-color: #1189F7;
+}
+.category .card.active .category-name,
+.category .card.active .class {
+  color: #FFFFFF;
+}
+.category .card .category-name {
+  font-size: 20px;
+  color: #1189F7;
+}
+.category .card .class {
+  color: #1189F7;
+}
+
+.product i {
+  font-size: 50px;
+  color: #1189F7;
+}
+.product .image-product {
+  height: 238px !important;
+  border-radius: 10px;
+  width: 400px !important;
+}
+.product .card {
+  border: none;
+}
+.product .card:hover {
+  scale: 1.1;
+}
+.product .card .img-box {
+  max-width: 500px;
+  max-height: 400px;
+  overflow: hidden;
+}
+.product .card .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 238px !important;
+  border-radius: 10px;
+  width: 100% !important;
+}
+.product .card .bg-img .info {
+  position: absolute;
+  bottom: 20px;
+}
+.product .card .bg-img .info .rate i {
+  color: #EBEF17 !important;
+}
+.product .card .bg-img .info .member {
+  font-weight: 500;
+  color: #FFFFFF !important;
+}
+.product .card .product-caption .product-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.product .card .product-caption .price {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1189F7;
+}
+
+.about .image-banner-about {
+  width: 560px !important;
+  /* height: 300px; */
+  padding: 113px 26px 43px 126px !important;
+}
+
+.testimonial {
+  background: #dbedff !important;
+  height: 496px;
+}
+.testimonial .card {
+  border: none;
+  background-color: #1189F7;
+  color: #FFFFFF;
+}
+.testimonial .card .rate i {
+  color: #EBEF17 !important;
+}
+.testimonial .testi-image {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.cta .image-banner-cta {
+  width: 560px !important;
+  /* height: 300px; */
+  padding: 0 26px 43px 126px !important;
+}/*# sourceMappingURL=main.css.map */

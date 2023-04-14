@@ -1,0 +1,257 @@
+@import 'colors';
+@import 'fonts';
+@import 'buttons';
+
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3% ease-in-out all;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.container {
+    max-width: 1344px;
+}
+
+.section-margin {
+    margin-top:180px;
+}
+
+.label-section {
+    font-weight: map-get($font-weights, medium);
+    color: $black;
+    font-size: 25px;
+}
+
+.img-banner {
+    margin-top: 40px !important;
+}
+
+
+.heading-section {
+    font-weight: map-get($font-weights, medium);
+    color: $black;
+    font-size: 40px;
+}
+
+.subheading-section {
+    font-weight: map-get($font-weights, light);
+    color: $black;
+    font-size: 25px;
+}
+
+// HOME CSS
+.home {
+    height: 100%;
+    background-color: $background-head !important;
+    .heading-home {
+        font-size: 46px;
+        // margin-top: -139px;
+        margin-top: 77px;
+        font-weight: map-get($font-weights, bold);
+        color: $black;
+        
+        .prof {
+            color: $sec-blue;
+
+        }
+
+        .krea {
+            color: $sec-blue;
+            
+        }
+
+        @include media-breakpoint-between(md,lg){
+            font-size:36px;
+            // margin-top: -1px !important;
+        }
+
+        @include media-breakpoint-down(sm){
+            font-size:16px;
+            // margin-top: -1px !important;
+        }
+    }
+
+    .subheading-home {
+        margin-top:34px;
+        @include media-breakpoint-down(md){
+            margin-top:30px;
+        }
+    }
+}
+
+// PARTNER CSS
+.partner {
+    height: 100%;
+    background-color: $primary-back;
+
+    .text-partner-kami {
+        padding-bottom:30px;
+    }
+}
+
+
+// Kategori CSS
+.category {
+    i {
+        font-size: 50px;
+        color: $sec-blue;
+    }
+
+    .image-category {
+        width:85px !important;
+    }
+
+    .card {
+        border: 2px solid $sec-blue;
+
+        &.active {
+            background-color: $sec-blue;
+
+            .category-name,
+            .class {
+                color: $primary-back;
+            }
+        }
+
+        .category-name {
+            font-size: 20px;
+            color: $sec-blue;
+        }
+
+        .class {
+            color: $sec-blue;
+        }
+    }
+}
+
+
+
+
+
+
+// Product css
+.product {
+    i {
+        font-size: 50px;
+        color: $sec-blue;
+    }
+
+    .image-product {
+        height: 238px !important;
+        border-radius: 10px;
+        width: 400px !important;
+    }
+
+    .card {
+        border:none;
+
+        &:hover {
+            // cursor: pointer;
+            scale: (1.1);
+            
+        }
+    
+
+        .img-box {
+            max-width: 500px;
+            max-height: 400px;
+            overflow: hidden;
+        }
+
+        .bg-img {
+            // background: linear-gradient(180deg, rgba(0,0,0,0) 52.27% , #000000 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 238px !important;
+            border-radius: 10px;
+            width: 100% !important;
+
+
+
+            .info {
+                position: absolute;
+                bottom: 20px;
+
+                .rate {
+                    i {
+                        color: #EBEF17 !important;
+                    }
+                }
+
+                .member {
+                    font-weight: map-get($font-weights, medium);
+                    color: $primary-back !important;
+                }
+
+            }
+        }
+
+        .product-caption {
+            .product-name {
+                font-size: 20px;
+                font-weight: map-get($font-weights, medium);
+            }
+
+            .price {
+                font-size: 25px;
+                font-weight: map-get($font-weights, bold);
+                color: $sec-blue;
+            }
+        }
+    }
+
+
+}
+
+
+// About CSS
+
+.about {
+    .image-banner-about {
+        width: 560px !important;
+        /* height: 300px; */
+        padding: 113px 26px 43px 126px !important;
+    
+    }
+}
+
+// TESTIMONI CSS
+.testimonial {
+    background: #dbedff !important;
+    height: 496px; 
+    .card {
+        border: none;
+        background-color: $sec-blue;
+        color: $primary-back;
+
+
+        .rate {
+            i {
+                color: #EBEF17 !important;
+            }
+        }
+    }
+
+
+
+
+
+    .testi-image {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+// CTA 
+.cta {
+    .image-banner-cta {
+        width: 560px !important;
+        /* height: 300px; */
+        padding: 0 26px 43px 126px !important
+    }
+}

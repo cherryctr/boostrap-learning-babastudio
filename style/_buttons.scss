@@ -1,0 +1,92 @@
+@import 'colors';
+@import 'fonts';
+
+.master-btn {
+    padding : 15px 30px;
+    border-radius: 50px;
+    font-weight: map-get($font-weights,medium);
+
+    @include media-breakpoint-down(sm){
+        padding : 10px 20px;
+    }
+}
+
+
+
+.btn-first {
+    @extend .master-btn;
+    background-color: $sec-blue;
+    color:white !important;
+    text-decoration:none !important;
+
+    &:hover {
+        background-color: #057AE7;
+        color:white !important;
+    }
+}
+
+.btn-masuk {
+    margin-left:56px !important;
+    text-decoration:none !important;
+    color: $black;
+
+    &:hover {
+        font-weight: map-get($font-weights, medium);
+        color: $sec-blue !important;
+    }
+}
+
+.btn-second {
+   @extend .master-btn;
+   border: 2px solid $sec-blue;
+   color: $sec-blue;
+   text-decoration:none !important;
+
+//    &:hover {
+//         background-color: #057AE7;
+//         color:white !important;
+//     }
+}
+
+.btn-mulai {
+   
+    @extend .master-btn;
+    margin-right: 18px;
+    background-color: $sec-blue;
+    color:white !important;
+    text-decoration:none !important;
+
+    &:hover {
+        background-color: #057AE7;
+        color:white !important;
+    }
+}
+
+.btn-explore {
+    @extend .master-btn;
+    border: 2px solid $sec-blue;
+    color: $sec-blue;
+    text-decoration:none !important;
+ 
+ //    &:hover {
+ //         background-color: #057AE7;
+ //         color:white !important;
+ //     }
+ }
+
+ .btn-home {
+    margin-top: 54px !important;
+ }
+
+.btn-lihatsemua {
+    @extend .master-btn;
+    margin-right: 18px;
+    background-color: $sec-blue;
+    color:white !important;
+    text-decoration:none !important;
+
+    &:hover {
+        background-color: #057AE7;
+        color:white !important;
+    }
+}
