@@ -348,4 +348,41 @@
   width: 560px !important;
   /* height: 300px; */
   padding: 0 26px 43px 126px !important;
+}
+
+.footer {
+  background-color: #1189F7;
+  padding: 68px 0px;
+}
+.footer .img-logo-footer {
+  width: 334px !important;
+}
+.footer a {
+  text-decoration: none;
+  font-weight: 200;
+}
+.footer .contact-footer {
+  margin-left: 22px !important;
+  font-size: 17px !important;
+}
+.footer .social-media {
+  margin-left: 12px;
+}
+.footer .social-media i {
+  font-size: 50px;
+}
+.footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul li {
+  color: white;
+}
+.footer .image-sosmed {
+  width: 127px !important;
+  margin-top: 27px;
 }/*# sourceMappingURL=main.css.map */

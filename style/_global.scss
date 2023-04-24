@@ -255,3 +255,55 @@
         padding: 0 26px 43px 126px !important
     }
 }
+
+// FOOTER 
+
+.footer {
+    background-color: $sec-blue;
+    // border-radius: 50px 50px 0px 0px;
+    padding: 68px 0px;
+
+    .img-logo-footer {
+        width: 334px !important;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 200;
+    }
+
+    .contact-footer {
+        margin-left: 22px !important;
+        font-size: 17px !important;
+    }
+
+    .social-media {
+        margin-left: 12px;
+
+        
+
+        i {
+            font-size: 50px;
+        }
+    }
+
+    h3 {
+        font-weight: map-get($font-weights, bold);
+        font-size: 20px;
+        color: white;
+
+    }
+
+    ul  {
+        padding: 0;
+        
+        li {
+            color: white;
+        }
+    }
+
+    .image-sosmed {
+        width: 127px !important;
+        margin-top: 27px;
+    }
+}
