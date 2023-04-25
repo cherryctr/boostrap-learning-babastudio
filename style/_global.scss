@@ -11,6 +11,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
+  
+
 input[type=email],input[type=password],input[type=text],input[type=number] {
     // background-color: none;
     border: none;
@@ -447,6 +450,38 @@ input[type=email],input[type=password],input[type=text],input[type=number] {
         border-radius:26px !important;
     }
 
+    .main-head-progress {
+        background-image: linear-gradient(#4675C0, #8FC8EB) !important;
+        width: 100%;
+        height: 251px;
+        border-radius: 20px;
+        /* padding: 10px; */
+        margin-top: -76px;
+
+       
+
+        .title-head-course {
+            color: white;
+            text-align: center;
+            width: 68%;
+            margin: auto;
+            padding: 37px;
+        }
+
+        .progress {
+            width: 73%;
+            margin: auto;
+            height: 36px;
+
+            .progress-bar {
+                width: 25%;
+                margin-left: -12px;
+                font-size: 21px;
+            }
+        }
+        
+    }
+
     .menu-list-course {
         // border: 1px solid #CCCCCC;
         border-radius: 10px;
@@ -465,12 +500,20 @@ input[type=email],input[type=password],input[type=text],input[type=number] {
             // cursor: pointer;
             scale: (1.1);
             width: 378px;
+           
             
         }
 
         .vidio-title a {
             text-decoration: none;
             color: $black;
+
+            &:hover {
+                // cursor: pointer;
+                color: $sec-blue;
+               
+                
+            }
         }
         .vidio-minute {
             p {
@@ -486,6 +529,18 @@ input[type=email],input[type=password],input[type=text],input[type=number] {
         color: #000000;
         padding: 13px;
         height: 78px;
+        border-radius: 10px;
+        box-shadow: 0 1px 10px -5px gray;
+        text-align: center;
+    }
+
+    .title-course-video {
+        background-color: white;
+        font-size: 20px;
+        font-weight: 100;
+        color: #000000;
+        padding: 16px;
+        height: 60px;
         border-radius: 10px;
         box-shadow: 0 1px 10px -5px gray;
         text-align: center;

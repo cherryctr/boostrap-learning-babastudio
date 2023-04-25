@@ -491,6 +491,31 @@ input[type=email], input[type=password], input[type=text], input[type=number] {
   padding: 10px;
   border-radius: 26px !important;
 }
+.listmycourse .main-head-progress {
+  background-image: linear-gradient(#4675C0, #8FC8EB) !important;
+  width: 100%;
+  height: 251px;
+  border-radius: 20px;
+  /* padding: 10px; */
+  margin-top: -76px;
+}
+.listmycourse .main-head-progress .title-head-course {
+  color: white;
+  text-align: center;
+  width: 68%;
+  margin: auto;
+  padding: 37px;
+}
+.listmycourse .main-head-progress .progress {
+  width: 73%;
+  margin: auto;
+  height: 36px;
+}
+.listmycourse .main-head-progress .progress .progress-bar {
+  width: 25%;
+  margin-left: -12px;
+  font-size: 21px;
+}
 .listmycourse .menu-list-course {
   border-radius: 10px;
   height: 500px !important;
@@ -510,6 +535,9 @@ input[type=email], input[type=password], input[type=text], input[type=number] {
   text-decoration: none;
   color: #000000;
 }
+.listmycourse .content-list-course .vidio-title a:hover {
+  color: #1189F7;
+}
 .listmycourse .content-list-course .vidio-minute p {
   font-weight: 100;
 }
@@ -520,6 +548,17 @@ input[type=email], input[type=password], input[type=text], input[type=number] {
   color: #000000;
   padding: 13px;
   height: 78px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px -5px gray;
+  text-align: center;
+}
+.listmycourse .title-course-video {
+  background-color: white;
+  font-size: 20px;
+  font-weight: 100;
+  color: #000000;
+  padding: 16px;
+  height: 60px;
   border-radius: 10px;
   box-shadow: 0 1px 10px -5px gray;
   text-align: center;
