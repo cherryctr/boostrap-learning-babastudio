@@ -487,6 +487,10 @@ input[type=email], input[type=password], input[type=text], input[type=number] {
 .listmycourse {
   height: 100%;
 }
+.listmycourse .image-banner-learning {
+  padding: 10px;
+  border-radius: 26px !important;
+}
 .listmycourse .menu-list-course {
   border-radius: 10px;
   height: 500px !important;
@@ -497,6 +501,10 @@ input[type=email], input[type=password], input[type=text], input[type=number] {
 }
 .listmycourse .content-list-course {
   padding: 10px;
+}
+.listmycourse .content-list-course:hover {
+  scale: 1.1;
+  width: 378px;
 }
 .listmycourse .content-list-course .vidio-title a {
   text-decoration: none;

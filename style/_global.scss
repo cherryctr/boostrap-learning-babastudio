@@ -442,6 +442,10 @@ input[type=email],input[type=password],input[type=text],input[type=number] {
 .listmycourse {
     height: 100%;
     // background-color: $background-head !important;
+    .image-banner-learning {
+        padding: 10px;
+        border-radius:26px !important;
+    }
 
     .menu-list-course {
         // border: 1px solid #CCCCCC;
@@ -456,6 +460,13 @@ input[type=email],input[type=password],input[type=text],input[type=number] {
 
     .content-list-course {
         padding: 10px;
+
+        &:hover {
+            // cursor: pointer;
+            scale: (1.1);
+            width: 378px;
+            
+        }
 
         .vidio-title a {
             text-decoration: none;
