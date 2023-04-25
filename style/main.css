@@ -174,12 +174,22 @@
   font-family: "Work Sans", sans-serif;
 }
 
+input[type=email], input[type=password], input[type=text], input[type=number] {
+  border: none;
+  height: 50px;
+}
+
+.nama-kategori {
+  text-decoration: none !important;
+}
+
 .container {
   max-width: 1344px;
 }
 
 .section-margin {
-  margin-top: 180px;
+  margin-top: 182px;
+  margin-bottom: 163px;
 }
 
 .label-section {
@@ -385,4 +395,165 @@
 .footer .image-sosmed {
   width: 127px !important;
   margin-top: 27px;
+}
+
+.mymenucourse .menu-kategori {
+  font-weight: 100 !important;
+}
+.mymenucourse i {
+  font-size: 50px;
+  color: #1189F7;
+}
+.mymenucourse .image-product {
+  height: 238px !important;
+  border-radius: 10px;
+  width: 400px !important;
+}
+.mymenucourse .card {
+  border: none;
+}
+.mymenucourse .card:hover {
+  scale: 1.1;
+}
+.mymenucourse .card .img-box {
+  max-width: 500px;
+  max-height: 400px;
+  overflow: hidden;
+}
+.mymenucourse .card .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 238px !important;
+  border-radius: 10px;
+  width: 100% !important;
+}
+.mymenucourse .card .bg-img .info {
+  position: absolute;
+  bottom: 20px;
+}
+.mymenucourse .card .bg-img .info .rate i {
+  color: #EBEF17 !important;
+}
+.mymenucourse .card .bg-img .info .member {
+  font-weight: 500;
+  color: #FFFFFF !important;
+}
+.mymenucourse .card .product-caption .product-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.mymenucourse .card .product-caption .price {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1189F7;
+}
+
+.headingmycourse {
+  height: 100%;
+  background-color: #dbedff !important;
+}
+.headingmycourse .heading-home {
+  font-size: 46px;
+  margin-top: 77px;
+  font-weight: 700;
+  color: #000000;
+}
+.headingmycourse .heading-home .prof {
+  color: #1189F7;
+}
+.headingmycourse .heading-home .krea {
+  color: #1189F7;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .headingmycourse .heading-home {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575.98px) {
+  .headingmycourse .heading-home {
+    font-size: 16px;
+  }
+}
+.headingmycourse .subheading-home {
+  margin-top: 34px;
+}
+@media (max-width: 767.98px) {
+  .headingmycourse .subheading-home {
+    margin-top: 30px;
+  }
+}
+
+.listmycourse {
+  height: 100%;
+}
+.listmycourse .menu-list-course {
+  border-radius: 10px;
+  height: 500px !important;
+  overflow: scroll;
+  background-color: white;
+  box-shadow: 0 1px 10px -5px gray;
+  padding: 12px;
+}
+.listmycourse .content-list-course {
+  padding: 10px;
+}
+.listmycourse .content-list-course .vidio-title a {
+  text-decoration: none;
+  color: #000000;
+}
+.listmycourse .content-list-course .vidio-minute p {
+  font-weight: 100;
+}
+.listmycourse .title-course {
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  padding: 13px;
+  height: 78px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px -5px gray;
+  text-align: center;
+}
+.listmycourse .video-course {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.listmycourse .video-course iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.listmycourse .heading-home {
+  font-size: 46px;
+  margin-top: 77px;
+  font-weight: 700;
+  color: #000000;
+}
+.listmycourse .heading-home .prof {
+  color: #1189F7;
+}
+.listmycourse .heading-home .krea {
+  color: #1189F7;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .listmycourse .heading-home {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575.98px) {
+  .listmycourse .heading-home {
+    font-size: 16px;
+  }
+}
+.listmycourse .subheading-home {
+  margin-top: 34px;
+}
+@media (max-width: 767.98px) {
+  .listmycourse .subheading-home {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
