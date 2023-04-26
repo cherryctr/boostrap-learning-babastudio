@@ -103,16 +103,16 @@
                         
                        
                         
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingOnes">
                                
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnes" aria-expanded="true" aria-controls="collapseOnes">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnes" aria-expanded="false" aria-controls="collapseOnes">
                                      <span><i class='bx bxs-check-circle ceklis-icon-title'></i></span>
                                   Introduction
                                 </button>
                               </h2>
-                              <div id="collapseOnes" class="accordion-collapse collapse show" aria-labelledby="headingOnes" data-bs-parent="#accordionExample">
+                              <div id="collapseOnes" class="accordion-collapse collapse" aria-labelledby="headingOnes" data-bs-parent="#accordionExample">
                                  <div class="accordion-body">
                                     <div class="content-list-course active">
                                         <div class="card">
@@ -571,7 +571,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                </div>
+                            </div>
                             
                           </div>
 
@@ -811,6 +811,16 @@
           }
       }
     });
+    </script>
+
+    <script>
+        function toggle(event) {
+            var myCollapse = document.getElementsByClassName('collapse')[0];
+            var bsCollapse = new bootstrap.Collapse(myCollapse, {
+              toggle: true
+            });
+          }
+         
     </script>
 
 
