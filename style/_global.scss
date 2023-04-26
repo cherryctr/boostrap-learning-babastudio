@@ -482,15 +482,62 @@ input[type=email],input[type=password],input[type=text],input[type=number] {
         
     }
 
+    .card-refrensi {
+        border:none;
+
+        .head-refrensi {
+            background-color: white;
+            font-size: 20px;
+            font-weight: 500;
+            color: #000000;
+            padding: 13px;
+            height: 78px;
+            border-radius: 10px;
+            box-shadow: 0 1px 10px -5px gray;
+            text-align: center;
+        }
+
+        .card-body-refrensi {
+            background-color: white;
+            font-size: 20px;
+            font-weight: 500;
+            color: #000000;
+            padding: 12px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 1px 10px -5px gray;
+            /* text-align: center; */
+            margin-top: 16px;
+
+            p {
+                font-weight: 100;
+            }
+        }
+
+    }
+    
+
     .menu-list-course {
         // border: 1px solid #CCCCCC;
         border-radius: 10px;
-        height: 500px !important;
+        height: auto !important;
         overflow: scroll;
         background-color: white;
         // box-shadow: 10px black;
         box-shadow: 0 1px 10px -5px gray;
         padding: 12px;
+
+        .ceklis-icon-title {
+            color: green !important;
+            font-size: 31px !important;
+            padding: 5px !important;
+        }
+
+        .gembok-icon-title {
+            color: grey !important;
+            font-size: 31px !important;
+            padding: 5px !important;
+        }
     }
 
     .content-list-course {
